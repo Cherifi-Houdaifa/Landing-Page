@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-color: #1f2937;
+}
+
+.hero nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.hero nav p {
+    color: #f9faf8;
+    font-size: 24px;
+    margin: 0 0 0 200px;
+}
+.hero nav a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px 0 10px;
+}
+.hero nav .first{
+    margin-left: auto;
+}
+.hero nav .last {
+    margin-right: 200px;
+}
