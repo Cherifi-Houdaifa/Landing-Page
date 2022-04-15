@@ -10,6 +10,7 @@ html, body {
     background-color: #1f2937;
 }
 
+/* Nav styles */
 .hero nav {
     height: 70px;
     display: flex;
@@ -33,6 +34,7 @@ html, body {
     margin-right: 200px;
 }
 
+/* Content styles */
 .hero-main {
     margin: 40px 200px 0 200px;
     display: flex;
@@ -61,6 +63,8 @@ html, body {
     width: 250px;
     margin: 10px;
 }
+
+/* Quote styles */
 .quote {
     background-color: #e5e7eb;
     padding: 150px 200px;
@@ -77,4 +81,19 @@ html, body {
     text-align: right;
     font-size: 24px;
     font-weight: 600;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #1f2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p {
+    font-size: 20px;
+    color: #f9faf8;
+    margin: 0;
+    display: inline;
 }
